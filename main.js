@@ -6,3 +6,9 @@ $('a').click(
     $('.hamburger-menu').show()
   }
 )
+
+$('.close').click(
+  function invisible(){
+    $('.hamburger-menu').hide()
+  }
+)
