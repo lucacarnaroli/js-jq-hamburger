@@ -2,6 +2,7 @@
 // Html, Css e JavaScript.
 
 $('a').click(
-  function()
-  
+  function visible() {
+    $('.hamburger-menu').show()
+  }
 )
