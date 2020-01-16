@@ -1,14 +1,14 @@
 // Creare un hamburger menu con l’utilizzo di
 // Html, Css e JavaScript.
 
-$('a').click(
+$('i').click(
   function visible() {
-    $('.hamburger-menu').show()
+    $('.hamburger-menu').show(1000)
   }
 )
 
 $('.close').click(
   function invisible(){
-    $('.hamburger-menu').hide()
+    $('.hamburger-menu').hide(500)
   }
 )
